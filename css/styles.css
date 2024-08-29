@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+/*barra de navegación*/
+.navbar{
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.perfil a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 15px;
+    display: flex;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    margin-top: -15px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+span{
+    background-color: rgb(28, 127, 240);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+
+/*tarjeta perfil*/
+
+.contenedor{
+    border: 1px outset rgb(199, 195, 195);
+    max-width: 550px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.celeste{
+    background-color: rgb(28, 127, 240);
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    height: 100px;
+}
+
+.foto1{
+    width: 130px;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+h1{
+    color:rgb(53, 51, 51);
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+h3{
+    color: rgb(112, 111, 111);
+    margin-left: 40px;
+}
+
+.editp{
+    font-size: 17px;
+    display: flex;
+    margin: 20px;
+    margin-left: 50px;
+    color:rgb(28, 127, 240);
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+/*CONTENEDOR2*/
+.contenedor2{
+    border: 1px outset rgb(199, 195, 195);
+    max-width: 550px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+
+}
+
+h2{
+    color:rgb(53, 51, 51);
+    margin-left: 40px;
+}
+h3{
+    color: rgb(112, 111, 111);
+    margin-left: 40px;
+}
+
+/*contenedor3*/
+
+.contenedor3{
+    border: 1px outset rgb(199, 195, 195);
+    max-width: 450px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 650px;
+    margin-top: -628px;
+    display: flex;
+    flex-direction: column;
+}
+.soli2{
+    color: rgb(57, 55, 55);
+    margin-left: 60px;
+    
+}
+
+.soli3{
+    color: rgb(52, 51, 51);
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+.foto2{
+    width: 45px;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 45px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 20px;
+}
+
+.foto3{
+    width: 60px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left:30px ;
+    border: 2px solid rgb(28, 127, 240);
+}
+
+.ticks1{
+    width: 140px;
+    position: absolute;
+    margin-top: 46px;
+    margin-left: 230px;
+}
+
+.ticks2{
+    width: 140px;
+    position: absolute;
+    margin-top: 114px;
+    margin-left: 230px;
+}
+
+/*4 contenedor*/
+
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    border: 1px outset rgb(199, 195, 195);
+    max-width: 550px;
+    border-radius: 10px;
+    margin-left: 650px;
+    max-width: 450px;
+    margin-top: 25px;
+}
+
+li{
+    display: flex;
+    padding: 20px;
+    margin-left: 30px;
+    color: rgb(65, 64, 64);
+    font-size: 20px;
+}
+
+.listaco{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 85px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
+
+.listaco1{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 150px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
+
+.listaco2{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 210px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
+.listaco3{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 275px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
+.listaco4{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 335px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
+.listaco5{
+    width: 50px;
+    display: flex;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 400px;
+    border: 2px solid rgb(28, 127, 240);
+    border-radius: 40px;
+
+}
